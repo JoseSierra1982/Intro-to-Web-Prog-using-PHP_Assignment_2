@@ -1,0 +1,76 @@
+body {
+    background-color:#D4BDAC; 
+    color:red; 
+    margin: 0px;
+    height: 1000px;   
+    flex-direction: column;
+    font-weight: bolder;
+ 
+}
+.navbar {
+    background-color:#536493; 
+    top: 0px;
+    width: 100%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    left: 0;
+    z-index: 1000; 
+}
+.navbar-brand img {
+    width: 180px;
+    height: 130px;
+    border-radius: 8px;
+}
+.navbar-nav .nav-item .nav-link {
+    color:red; /* Color del texto de los enlaces de navegación */
+    font-size: 22px;
+}
+.navbar-nav .nav-item .nav-link:hover {
+    color: #dfe6e9; /* Color del texto de los enlaces al pasar el cursor */
+}
+.container {
+    background-color: white;
+    color: black;
+    padding: 20px;
+    padding-top: 100px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 0px;
+    overflow-y: auto;
+}
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+  /* Asegúrate de que html y body ocupen toda la altura de la ventana */
+  html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Asegura que el contenido principal ocupe el espacio disponible */
+body > .container {
+    flex: 1;
+    
+    
+}
+
+/* Estilo del pie de página */
+.footer {
+    background-color: #EF5A6F; /* Background color */
+    color: #dfe6e9; /* Text color */
+    padding: 5px 10px; /* Reduced padding (50% of original) */
+    text-align: center; /* Center the text */
+    margin-top: auto; /* Push the footer to the bottom */
+    line-height: 1.5; /* Maintain line-height to keep text readable */
+    height: auto; /* Allow height to adjust based on content */
+}
+/*****************************************************CHANGES********************************************************************/
+
